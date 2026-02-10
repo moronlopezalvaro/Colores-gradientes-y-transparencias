@@ -1,0 +1,52 @@
+html{
+    font-family: Arial, Helvetica, sans-serif; /*cambio la fuente de la predeterminada a la usada en la imagen de referencia*/
+}
+
+body{
+    background: linear-gradient(to bottom, #82deea, #ffffff); /*creo un gradiente para el fondo*/
+}
+
+.cuadrado{ /*le doy atributos a los cuadrados, al ser todos de una misma clase seran todos iguales*/
+    height: 200px;
+    width: 200px;
+    border-radius: 10%;
+}
+
+p{ /*cambio los atributos de <p> para que este en el centro de cada cuadrado*/
+    text-align: center;
+    color: white;
+    padding-top: 90px;
+}
+
+/*llamando a cada id le doy sus respectivos colores, para sacar cada color he abierto la imagen de referencia en photoshop y ahi se pueden ver los colores*/
+#rojo{
+    background-color: rgb(242 48 49);
+}
+
+#verde{
+    background-color: rgb(86 181 121);
+}
+
+#gradiante{
+    background: linear-gradient(to right, #ff9700, #ff5821);
+}
+
+#radial{
+    background: radial-gradient(circle 100px, #000e7b, #00e5ff);
+}
+
+#triple{
+    background: linear-gradient(to right, #51feb2, #00cdff, #0007ff);
+}
+
+#esquina{
+    background: linear-gradient(135deg, #ec3a93, #2a92ef);
+}
+
+#radial_triple{
+    background: radial-gradient(circle 130px, #fdf8ed, #edc46a, #29bce5);
+}
+
+#radial_esquina{
+    background: radial-gradient(circle 250px at bottom left, #f54d37, #ffea3b, #329de5);
+}
